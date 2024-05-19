@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Dog Walking app test4</string>
+    <string name="i_am_a_dog_owner">I am a Dog Owner</string>
+    <string name="i_am_a_dog_walker">I am a Dog Walker</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="last_name">Last Name</string>
+    <string name="are_you_18">Are you 18+?</string>
+    <string name="first_name">First Name</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="location">Location</string>
+    <string name="date">Date</string>
+    <string name="pay_range">Pay Range</string>
+    <string name="search">Search</string>
+    <string name="pay_0_hr">Pay: 0$/hr</string>
+    <string name="profile_settings">Profile Settings</string>
+
+    <string-array name="country_array">
+        <item>United States</item>
+        <item>Canada</item>
+        <item>United Kingdom</item>
+        <item>Australia</item>
+        <item>India</item>
+        <!-- Add other countries as needed -->
+    </string-array>
+
+    <string-array name="australian_cities">
+        <item>Sydney</item>
+        <item>Melbourne</item>
+        <item>Brisbane</item>
+        <item>Perth</item>
+        <item>Adelaide</item>
+        <item>Canberra</item>
+        <item>Hobart</item>
+        <item>Darwin</item>
+    </string-array>
+
+
+</resources>

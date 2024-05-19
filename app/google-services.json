@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "247841681939",
+    "project_id": "dog-walking-app-test4",
+    "storage_bucket": "dog-walking-app-test4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247841681939:android:f41f5968a1492951cc45e6",
+        "android_client_info": {
+          "package_name": "com.example.dogwalkingapptest4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhiyjLHWZDynU0hRZLJR07lDWatIfPHhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

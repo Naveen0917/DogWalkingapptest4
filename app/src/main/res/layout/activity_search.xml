@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SearchActivity">
+
+    <Button
+        android:id="@+id/btnProfileSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_settings"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="false"
+        android:hint="Select Date"
+        android:onClick="showDatePickerDialog" />
+
+    <SeekBar
+        android:id="@+id/seekBarPayRange"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:max="100"
+        android:progress="25"
+        android:layout_below="@id/etDate"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvPayRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Pay Range: $25" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Location"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Location"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
